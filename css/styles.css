@@ -1,0 +1,536 @@
+/*********************************tag selectors**************************************/
+body{
+  background-color: lightcyan;
+  position: relative;
+  color: #40514e;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+hr{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 8px;
+  width: 5%;
+  margin: 90px auto;
+  filter: drop-shadow(1px 1px 5px dimgrey);
+}
+h1,h2,h3{
+  color: #2F8F9D;
+}
+h1
+{
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  margin: 0;
+}
+h3{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+h4{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h5{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+a{
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  text-align: center;
+  font-size: 0.8rem;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding: 0.4rem 0;
+}
+li:hover{
+  background-color: white;
+  cursor: pointer;
+}
+/*********************************class selectors**************************************/
+.top-col{
+  background-color: #66bfbf;
+  padding: 30px 0px 15px;
+  text-align :right;
+}
+.cm{
+  color: #11999e;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 1rem 1rem;
+}
+.cm:hover{
+  color: white;
+  text-shadow: 1px 1px 4px #666666;
+  transition-duration: 0.3s;
+}
+.sign-in{
+  color: #11999e;
+  text-decoration: none;
+  margin: 1rem 1rem;
+}
+.sign-in:hover{
+  color: white;
+  text-shadow: 1px 1px 4px #666666;
+  transition-duration: 0.3s;
+
+}
+.log-in{
+  color: #11999e;
+  text-decoration: none;
+margin: 1rem 1rem;
+}
+.log-in:hover{
+  color: white;
+  text-shadow: 1px 1px 4px #666666;
+  transition-duration: 0.3s;
+}
+.m,.k{
+  color: #205375;
+  text-shadow: 1px 1px 1px #2F8F9D;
+}
+.profile{
+  margin: 2rem;
+}
+.clg:hover{
+  color: #66bfbf;
+  text-shadow: 1px 1px 3px #66bfbf;
+}
+.mk{
+  padding: 1rem 0 0 16rem;
+  text-shadow: 1px 1px 1px #205375;
+}
+.fy{
+  padding: 0 0 0 16rem;
+  margin-top: 0.5rem;
+}
+.interest{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: center;
+}
+.left{
+  float: left;
+  height: 7rem;
+  margin-right: 1rem;
+  width: 7rem;
+  margin-bottom:
+}
+.left:hover{
+  filter: drop-shadow(1px 1px 4px #2F8F9D);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.right{
+  float: right;
+  height: 7rem;
+  margin-left: 1rem;
+  width: 7rem;
+}
+.right:hover{
+  filter: drop-shadow(1px 1px 4px #2F8F9D);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.st{
+  margin-bottom: 2.5rem;
+}
+.special-thanks{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.education{
+  width:50%;
+  margin: auto;
+  text-align: center;
+}
+.tab-edu{
+  width: 100%;
+}
+.intab-edu{
+  width: auto;
+  padding: 5rem auto;
+}
+.skills{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.inskills{
+  display: inline-block;
+  width: 25rem;
+}
+.skill-score{
+  text-align: left;
+  display: inline-block;
+  width: 5.3rem;
+  margin-left: 1rem;
+}
+.skill-title{
+  text-align: left;
+  display: inline-block;
+  margin:0 auto 0 0;
+  width: 18rem;
+}
+.skill-title:hover{
+  transition: width 0.3s;
+  cursor: pointer;
+  width:16rem;
+}
+.skill-score:hover{
+  filter: drop-shadow(1px 1px 3px #2F8F9D);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+  background-color: #66bfbf;
+  margin-top: 2.5rem;
+  padding: 1rem 0 0.1rem;
+}
+.footer hr,.top-col hr{
+  border-style: solid none none;
+  border-color: white;
+  border-width: 1.5rem;
+  border-radius: 10rem;
+  display: inline-block;
+  width: 0.13%;
+  margin:0px;
+  filter: drop-shadow(1px 1px 1px #2F8F9D);
+}
+.cpr{
+  color: white;
+  font-size: 0.75rem;
+  padding:10px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer a{
+  color: #11999e;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem 1.5rem;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: white;
+}
+.slogan{
+  font-size: 1.1rem;
+  color: #727878
+}
+.contact-details h1{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-details{
+  background-color: #66bfbf;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 6rem auto 2rem;
+  width: 50%;
+  padding:1rem;
+}
+.incontact{
+  background-color: #2F8F9D;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 0.9rem auto 6rem;
+  width: 35%;
+  padding: 2rem;
+  color: white;
+}
+
+.email img,.instagram img,.linkedin img{
+  height: 4rem;
+  width: 4rem;
+  float: right;
+  margin-right: 0.2rem;
+}
+.email p,.instagram p,.linkedin p{
+  font-size: 1rem;
+  margin: auto;
+  padding-top: 1.4rem;
+  padding-bottom: 1.3rem;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.email:hover,.email p:hover,.instagram:hover,.instagram p:hover,.linkedin:hover,.linkedin p:hover{
+  background-color:#66bfbf;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor:pointer;
+  transition: font-size 0.4s;
+  margin:0 0 0 2.6rem;
+  color: #40514e;
+}
+.email img:hover,.instagram img:hover,.linkedin img:hover{
+  transition: width 0.1s;
+  filter: drop-shadow(1.5px 1.5px 5px #2F8F9D);
+  cursor:pointer;
+  width:4.1rem;
+}
+.twitter img,.snapchat img,.whatsapp img{
+  height:4rem;
+  width: 4rem;
+  float: left;
+  margin-left: 0.2rem;
+}
+.twitter p,.snapchat p,.whatsapp p{
+  font-size: 1rem;
+  margin: auto;
+  padding-top: 1.4rem;
+  padding-bottom: 1.3rem;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+.twitter:hover,.twitter p:hover,.snapchat:hover,.snapchat p:hover,.whatsapp:hover,.whatsapp p:hover{
+  background-color:#66bfbf;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  cursor:pointer;
+  transition: font-size 0.4s;
+  margin:0 2.6rem 0 0;
+  color: #40514e;
+}
+.twitter img:hover,.snapchat img:hover,.whatsapp img:hover{
+  transition: width 0.1s;
+  filter: drop-shadow(1px 1px 5px #2F8F9D);
+  cursor:pointer;
+  width:4.1rem;
+}
+.incontact hr{
+  border-style: solid none none;
+  border-color: #A5BECC;
+  border-width: 0.19rem;
+  border-radius: 10rem;
+  width: 40%;
+  margin: 0.5rem auto;
+  filter: drop-shadow(1px 1px 9px black);
+}
+.login,.signin{
+  background-color: #66bfbf;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 6rem auto 2rem;
+  width: 12rem;
+  padding:1rem;
+}
+.login h1,.signin h1{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.in-login{
+  background-color: #66bfbf;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 4rem auto 2rem;
+  width: 30%;
+  padding:3rem 1rem;
+}
+.login-form label{
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.login-form input{
+  background-color: white;
+  border-radius: 0.4rem;
+  border-style: inset;
+  border-color: #A5BECC;
+  border-width: 0.20rem;
+  height: 1.8rem;
+  width: 11rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: arial;
+  color: dimgrey;
+  padding-left: 1rem;
+}
+.username input{
+  margin-left: 0.2rem;
+}
+.login-form input:focus,.signin-form input:focus{
+  background-color: lightcyan ;
+}
+.username,.password{
+  margin: 1.4rem auto;
+}
+.submit input{
+  background-color: #2F8F9D;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 1.8rem;
+  width: 4.5rem;
+  font-size: 18px;
+  padding-left: 0.7rem;
+  box-shadow: 0.5px 0.5px 6px white;
+}
+.submit input:hover{
+  background-color: white;
+  color: #2F8F9D ;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 8px 30px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.in-signin{
+  background-color: #66bfbf;
+  border-radius: 1rem;
+  text-align: left;
+  margin: 4rem auto 2rem;
+  width: 40%;
+  padding:3rem 1rem 1rem;
+}
+.signin-form label{
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.signin-form input{
+  background-color: white;
+  border-radius: 0.4rem;
+  border-style: inset;
+  border-color: #A5BECC;
+  border-width: 0.19rem;
+  height: 1.6rem;
+  width: 13rem;
+  text-align: left;
+  font-size: 1rem;
+  font-family: arial;
+  color: dimgrey;
+  padding-left: 1rem;
+  margin: 0.3rem;
+}
+.fn input{
+  margin-left: 7.285rem;
+}
+.ln input{
+  margin-left: 7.4rem;
+}
+.mail input{
+  margin-left: 10.18rem;
+}
+.bdate input{
+  margin-left: 5.495rem;
+}
+.np input{
+  margin-left: 5rem;
+}
+.cp input{
+  margin-left: 2.9rem;
+}
+.term{
+  padding-bottom: 0.7rem;
+}
+.signin-form .submit{
+  text-align: center;
+  margin-top: 2rem;
+}
+.signin-form .submit input{
+  background-color: #2F8F9D;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 1.8rem;
+  width: 4.9rem;
+  font-size: 18px;
+  padding-left: 0.7rem;
+  box-shadow: 0.5px 0.5px 6px white;
+}
+.signin-form .submit input:hover{
+  background-color: white;
+  color: #2F8F9D ;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 8px 30px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/*********************************id selectors**************************************/
+#meet{
+  border-radius: 15% 100% 100% 110%;
+  background-color: #68A7AD;
+  float: left;
+}
+#meet:hover{
+  border-radius: 15% 100% 100% 110%;
+  background-color: #2F8F9D;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.24), 0 8px 30px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+#left{
+  text-align: left;
+  margin-top: 2rem;
+}
+#right{
+  text-align: right;
+  margin-top: 2rem;
+}
+#h5{
+  margin:2rem 0 0;
+  padding-top: 1rem;
+}
+#mparaleft{
+  width: 27rem;
+  margin-right: auto;
+}
+#mpararight{
+  width: 27rem;
+  margin-left: auto;
+}
+#tab-edu{
+  border-collapse:collapse;
+  margin: auto;
+
+}
+#tb-edu tr,#tab-edu td{
+  border: 1px solid #ddd;
+  margin: 2rem auto;
+  padding: 3rem auto;
+  height: 2rem;
+  text-align: center;
+  width: 50rem;
+  border-radius: 0.2rem;
+}
+#tab-edu th{
+  border: 1px solid #ddd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  background-color: #2F8F9D;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#tab-edu tr:nth-child(even){
+  background-color: #C6DCE4;
+}
+#tab-edu tr:nth-child(odd){
+  background-color: #DAEAF1;
+}
+#tab-edu tr:hover {
+  background-color: #F9F9F9;
+  cursor: pointer;
+}
+#Yes{
+  margin:2rem auto 0rem;
+  height: 1rem;
+  width:1.3rem;
+}
